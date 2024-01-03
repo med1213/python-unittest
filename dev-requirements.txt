@@ -15,3 +15,5 @@ channels
 channels-redis
 django-filter
 dj-rest-auth
+django-allauth
+django-environ
