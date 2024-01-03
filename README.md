@@ -2,8 +2,6 @@
 
 [![codecov](https://codecov.io/gh/med1213/python-unittest/branch/master/graph/badge.svg)](https://codecov.io/gh/med1213/python-unittest)
 
-<!-- [![codecov](https://codecov.io/gh/med1213/python-unittest/branch/master/graph/badge.svg)](https://app.codecov.io/gh/med1213/python-unittest/branch/master) -->
-
 # SBS-Lucky_Draw-Web-API
 
 This application enables Django powered websites to have multiple tenants via PostgreSQL schemas. A vital feature for every Software-as-a-Service website.

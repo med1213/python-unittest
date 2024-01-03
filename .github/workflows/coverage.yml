@@ -32,5 +32,6 @@ jobs:
         uses: codecov/codecov-action@v3
         with:
           directory: ./htmlcov # Adjust this directory if coverage reports are in a different location
+          token: ${{ secrets.CODECOV_TOKEN }}
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
