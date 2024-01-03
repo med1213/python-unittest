@@ -22,17 +22,15 @@ jobs:
           pip install -r dev-requirements.txt
           pip install coverage
 
-      - name: Run tests with coverage
-        run: python3 manage.py test
-
-      - name: Generate coverage report
+      - name: Run tests with coverage and generate HTML report
         run: |
+          coverage run manage.py test
           coverage report
           coverage html
 
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v3
         with:
-          directory: ./htmlcov
+          directory: ./htmlcov # Adjust this directory if coverage reports are in a different location
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
