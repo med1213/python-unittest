@@ -23,12 +23,12 @@ jobs:
           pip install coverage
 
       - name: Run tests with coverage
-        run: coverage run manage.py test -v 2
+        run: coverage run manage.py test -v 2 && coverage report && coverage html
 
-      - name: Generate coverage report
-        run: |
-          coverage report
-          coverage html
+      # - name: Generate coverage report
+      #   run: |
+      #     coverage report
+      #     coverage html
 
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v3
