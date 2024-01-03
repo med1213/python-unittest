@@ -129,7 +129,7 @@ dmypy.json
 .pyre/
 
 # Environments
-.env
+# .env
 .env_prod
 .global_env_prod.sh
 venv
