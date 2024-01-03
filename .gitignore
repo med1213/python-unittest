@@ -150,7 +150,7 @@ static/
 credential.json
 
 # ignore media folder
-htmlcov/
+# htmlcov/
 
 
 
