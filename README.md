@@ -1,6 +1,8 @@
 # Code Coverage
 
-[![codecov](https://codecov.io/gh/med1213/python-unittest/branch/master/graph/badge.svg)](https://codecov.io/gh/med1213/python-unittest)
+<!-- [![codecov](https://codecov.io/gh/med1213/python-unittest/branch/master/graph/badge.svg)](https://codecov.io/gh/med1213/python-unittest) -->
+
+[![codecov](https://codecov.io/gh/med1213/python-unittest/branch/master/graph/badge.svg)](https://app.codecov.io/gh/med1213/python-unittest/branch/master)
 
 # SBS-Lucky_Draw-Web-API
 
